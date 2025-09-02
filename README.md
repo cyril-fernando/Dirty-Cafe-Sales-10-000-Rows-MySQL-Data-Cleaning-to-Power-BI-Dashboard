@@ -69,8 +69,8 @@ dirty-cafe-sales/
 ├── datasets/                     # Original raw datasets
 │ └── dirty_cafe_sales.csv         # 10,000-row raw CSV file
 │
-├── scripts/                           # SQL scripts for data cleaning & EDA
-│ └── cleaning_steps_and_eda.sql         # MySQL scripts for cleaning and analysis
+├── documentary/                           # Documented SQL scripts (not reusable, first project)
+│ └── cafe_sales_documentary.sql         # MySQL queries for cleaning and analysis
 │
 ├── reports/                         # Power BI files and exports
 │ ├── cafe_sales_2023.pbix               # Power BI dashboard
