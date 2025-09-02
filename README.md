@@ -2,7 +2,7 @@
 
 This project demonstrates the process of cleaning and visualizing a 10,000-row café sales dataset using MySQL and Power BI. It involves data cleaning, transformation, and the creation of an interactive dashboard to provide insights into café sales performance.
 
-## 🎓 Learning Objectives
+## 🎓 Learnings
 
 - Gain practical experience with **MySQL Workbench** for cleaning and transforming messy datasets.  
 - Learn to handle **missing values, duplicates, and inconsistent data** effectively.  
@@ -15,8 +15,14 @@ This project demonstrates the process of cleaning and visualizing a 10,000-row c
 
 - **Dataset Source**: [Kaggle - Dirty Cafe Sales](https://www.kaggle.com/datasets/ahmedmohamed2003/cafe-sales-dirty-data-for-cleaning-training)  
 - **Tools Used**:
-  - MySQL Workbench for data cleaning and transformation
-  - Power BI for data visualization and dashboard creation
+  - **MySQL** Workbench for data cleaning and transformation
+  - **Power BI** for data visualization and dashboard creation
+  
+### Dashboard Preview
+
+<img src="images/cafe_sales_2023_page-0001.jpg" alt="Cafe Sales Dashboard Page 1" width="100%"/>
+
+<img src="images/cafe_sales_2023_page-0002.jpg" alt="Cafe Sales Dashboard Page 2" width="100%"/>
 
 ## 🧹 Data Cleaning Steps
 
@@ -57,10 +63,25 @@ An interactive Power BI dashboard was created to visualize the cleaned data. Key
 
 ## 🗂 Repository Contents
 
-- `cafe_sales_2023.pbix` - Power BI dashboard file  
-- `cleaning_steps_and_eda.sql` - SQL script detailing the data cleaning and exploratory data analysis steps  
-- `cafe_sales_2023.pdf` - PDF version of the Power BI report  
-- `LICENSE` - MIT License file
+```
+dirty-cafe-sales/
+│
+├── datasets/                     # Original raw datasets
+│ └── dirty_cafe_sales.csv         # 10,000-row raw CSV file
+│
+├── scripts/                           # SQL scripts for data cleaning & EDA
+│ └── cleaning_steps_and_eda.sql         # MySQL scripts for cleaning and analysis
+│
+├── reports/                         # Power BI files and exports
+│ ├── cafe_sales_2023.pbix               # Power BI dashboard
+│ └── cafe_sales_2023.pdf                 # PDF export of the Power BI dashboard
+│
+├── images/                               # Screenshots of the dashboard
+│ └── dashboard_preview.png                 # Snapshot of the Power BI dashboard
+│
+├── LICENSE                               # MIT License file
+└── README.md                             # Project overview and instructions
+```
 
 ---
 ## 🛡️ License
