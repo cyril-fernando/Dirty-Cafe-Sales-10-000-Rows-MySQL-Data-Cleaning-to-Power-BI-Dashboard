@@ -1,0 +1,24 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# MySQL Workbench temporary / backup files
+*.mwb_backup
+*.sql~
+
+# Power BI / Desktop files
+*.pbix
+*.pbit
+*.pbix.lock
+
+# Python / Jupyter (if used in the future)
+__pycache__/
+*.pyc
+*.pyo
+*.ipynb_checkpoints
+
+# Logs
+*.log
+
+# Environment files
+.env
