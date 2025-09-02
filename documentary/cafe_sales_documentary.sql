@@ -1,3 +1,24 @@
+/* ==========================================================
+   Cafe Sales SQL Documentary
+   ----------------------------------------------------------
+   Context:
+   - This file contains the documented steps of my first
+     MySQL + Power BI project.
+   - Purpose is transparency and learning reference.
+   - Queries include cleaning, exploratory checks, and notes.
+
+   Important:
+   - This script is NOT designed to be fully reusable or
+     production-ready. It documents thought process, mistakes,
+     and trial-and-error during the project.
+   - Good for understanding the journey from raw data to
+     analysis, not for direct deployment.
+
+   Author: Cyril Fernando
+   Date: 2025
+========================================================== */
+
+
 -- JUNE 1 2025
 -- Creation of schema, and exporting the csv file of dirty cafe sales
 -- I just used the tool above "create a new schema"
